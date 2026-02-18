@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <link rel="shortcut icon" href="./Img/Logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./CSS/style.css">
+
+</head>
+<body>
+    
+<div class="container px-4 py-4">
+    <div class="row">
+        
+        <aside class="col-lg-3 filter-section">
+            <button class="btn btn-success rounded-pill px-4 mb-4">
+                Filter <span class="iconify" data-icon="ci:filter-outline"></span>
+            </button>
+
+            <h5 class="fw-bold mb-3">All Categories</h5>
+            <ul class="category-list">
+                <li class="active"><input type="radio" name="cat"> <label for="cat-veg">Vegetables </label> <span class="count">(134)</span></li>
+                <li class="active"><input type="radio" name="cat" checked> <label for="cat-veg">Vegetables</label> <span class="count">(150)</span></li>
+                <li class="active"><input type="radio" name="cat"> Vegetables <span class="count">(54)</span></li>
+            </ul>
+
+            <hr>
+            <h5 class="fw-bold mb-3">Price</h5>
+            <input type="range" class="form-range" min="50" max="1500" value="750">
+            <div class="d-flex justify-content-between">
+                <span>Price: <strong class="text-dark">$50 - $1500</strong></span>
+            </div>
+
+            <hr>
+            <h5 class="fw-bold mb-3">Rating</h5>
+            <div class="form-check"><input class="form-check-input" type="checkbox" checked>   
+                    <iconify-icon icon="material-symbols:star"></iconify-icon>
+                    <iconify-icon icon="material-symbols:star"></iconify-icon>
+                    <iconify-icon icon="material-symbols:star"></iconify-icon>
+                    <iconify-icon icon="material-symbols:star"></iconify-icon>
+                    <iconify-icon icon="material-symbols:star"></iconify-icon> <span class="rater">5.0</span>
+                </div>
+
+            <div class="form-check"><input class="form-check-input" type="checkbox" checked>   
+                    <iconify-icon icon="material-symbols:star"></iconify-icon>
+                    <iconify-icon icon="material-symbols:star"></iconify-icon>
+                    <iconify-icon icon="material-symbols:star"></iconify-icon>
+                    <iconify-icon icon="material-symbols:star"></iconify-icon>
+                    <iconify-icon icon="material-symbols:star" style="opacity:0.3"></iconify-icon> <span class="rater">4.0 & up</span>
+                </div>
+
+                 <div class="form-check"><input class="form-check-input" type="checkbox" checked>   
+                    <iconify-icon icon="material-symbols:star"></iconify-icon>
+                    <iconify-icon icon="material-symbols:star"></iconify-icon>
+                    <iconify-icon icon="material-symbols:star"></iconify-icon>
+                    <iconify-icon icon="material-symbols:star" style="opacity:0.3"></iconify-icon>
+                    <iconify-icon icon="material-symbols:star" style="opacity:0.3"></iconify-icon> <span class="rater">3.0 & up</span>
+                </div>
+
+                 <div class="form-check"><input class="form-check-input" type="checkbox" checked>   
+                    <iconify-icon icon="material-symbols:star"></iconify-icon>
+                    <iconify-icon icon="material-symbols:star"></iconify-icon>
+                    <iconify-icon icon="material-symbols:star" style="opacity:0.3"></iconify-icon>
+                    <iconify-icon icon="material-symbols:star" style="opacity:0.3"></iconify-icon>
+                    <iconify-icon icon="material-symbols:star" style="opacity:0.3"></iconify-icon> <span class="rater">2.0 & up</span>
+                </div>
+
+                 <div class="form-check"><input class="form-check-input" type="checkbox" checked>   
+                    <iconify-icon icon="material-symbols:star"></iconify-icon>
+                    <iconify-icon icon="material-symbols:star" style="opacity:0.3"></iconify-icon>
+                    <iconify-icon icon="material-symbols:star" style="opacity:0.3"></iconify-icon>
+                    <iconify-icon icon="material-symbols:star" style="opacity:0.3"></iconify-icon>
+                    <iconify-icon icon="material-symbols:star" style="opacity:0.3"></iconify-icon> <span class="rater">1.0 & up</span>
+                </div>
+
+                 <h5 class="fw-bold mb-3 ptag">Popular Tag</h5>
+            <div class="tag-cloud">
+                <span class="badge active">Healthy</span>
+                <span class="badge">Low fat</span>
+                <span class="badge">Vegetarian</span>
+                <span class="badge">Kid foods</span>
+                <span class="badge">Vitamins</span>
+                <span class="badge">Bread</span>
+                <span class="badge">Meat</span>
+            </div>
+
+           <div class="banner-wrapper">
+            
+            <a href="#"><img src="./Img/Bannar (1).jpg" alt="" class="banner-img"></a>
+
+
+        </div>
+
+
+            <div class="mt-5">
+                <h5 class="fw-bold mb-3">Sale Products</h5>
+                <div class="sale-products-slider">
+                    <div class="d-flex align-items-center mb-3">
+                        <img src="./Img/malta.jpg" alt="Capsicum" class="rounded">
+                        <div class="ms-3">
+                            <h6 class="mb-0">Malta</h6>
+                            <span class="price">$32.00</span> <span class="old-price">$20.99</span>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center mb-3">
+                        <img src="./Img/malta.jpg" alt="Capsicum" class="rounded">
+                        <div class="ms-3">
+                            <h6 class="mb-0">Malta</h6>
+                            <span class="price">$24.00</span> <span class="old-price">$20.99</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <main class="col-lg-9">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <div class="dropdown">
+                    <button class="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                        Sort by: <span class="fw-bold">Latest</span>
+                    </button>
+                </div>
+                <div class="text-muted"><strong>52</strong> Results Found</div>
+            </div>
+
+            <div class="row g-3">
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="product-card h-100">
+                        <span class="badge-custom bg-stock">Out of Stock</span>
+                        <div class="card-actions">
+                            <div class="action-btn"><span class="iconify" data-icon="ph:heart-light"></span></div>
+                            <div class="action-btn"><span class="iconify" data-icon="ph:eye-light"></span></div>
+                        </div>
+                        <img src="./Img/corn.jpg" alt="Corn" class="product-img">
+                        <div class="p-3">
+                            <h6 class="mb-1 text-truncate">Fresh Corn</h6>
+                            <div class="price">$14.99 <span class="old-price">$20.99</span></div>
+                            <div class="rating"> 
+                                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                    <iconify-icon icon="material-symbols:star"></iconify-icon>
+                    <iconify-icon icon="material-symbols:star"></iconify-icon>
+                    <iconify-icon icon="material-symbols:star"></iconify-icon>
+                    <iconify-icon icon="material-symbols:star" style="opacity:0.3"></iconify-icon></div>
+                        </div>
+                        <div class="add-to-cart"><span class="iconify" data-icon="ph:shopping-bag-light"></span></div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="product-card h-100">
+                        <span class="badge-custom bg-sale">Sale 50%</span>
+                        <div class="card-actions">
+                            <div class="action-btn"><span class="iconify" data-icon="ph:heart-light"></span></div>
+                            <div class="action-btn"><span class="iconify" data-icon="ph:eye-light"></span></div>
+                        </div>
+                        <img src="./Img/corn.jpg" alt="Corn" class="product-img">
+                        <div class="p-3">
+                            <h6 class="mb-1 text-truncate">Fresh Corn</h6>
+                            <div class="price">$14.99 <span class="old-price">$20.99</span></div>
+                            <div class="rating"> 
+                                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                    <iconify-icon icon="material-symbols:star"></iconify-icon>
+                    <iconify-icon icon="material-symbols:star"></iconify-icon>
+                    <iconify-icon icon="material-symbols:star"></iconify-icon>
+                    <iconify-icon icon="material-symbols:star" style="opacity:0.3"></iconify-icon></div>
+                        </div>
+                        <div class="add-to-cart"><span class="iconify" data-icon="ph:shopping-bag-light"></span></div>
+                    </div>
+                </div>
+                
+               
+               
+            </div>
+        </main>
+    </div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" ></script>
+<script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" ></script>
+<script src="https://cdn.jsdelivr.net/npm/iconify-icon@3.0.0/dist/iconify-icon.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="./JS/app.js"></script>  
+</body>
+</html>
